@@ -85,8 +85,17 @@ npm run dev
 - **Backend API**: [http://localhost:5000/api/v1](http://localhost:5000/api/v1)
 
 ---
+## Gold Loan Portal
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/fd67efd4-b6a3-48bd-94f9-e48e89771692" />
 
-<img width="1144" height="834" alt="Gold Loan Portal Screenshot" src="https://github.com/user-attachments/assets/dc952c50-de3b-45b9-a171-44fad33cc633" />
+<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/5e497055-7c74-4fb1-8546-b44bdab2de90" />
+
+<img width="1897" height="931" alt="image" src="https://github.com/user-attachments/assets/8859172b-a5dc-4717-a961-afa333e210c8" />
+
+<img width="1902" height="963" alt="image" src="https://github.com/user-attachments/assets/e2b31b0a-d181-4520-8024-88107d90ac8f" />
+
+<img width="1390" height="888" alt="image" src="https://github.com/user-attachments/assets/00f6f28d-6070-4041-aa4b-951450e30925" />
+
 
 ##  Testing & Automated Evaluation
 
