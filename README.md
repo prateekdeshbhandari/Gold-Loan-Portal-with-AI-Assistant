@@ -220,3 +220,26 @@ Conversational endpoint for the AI Loan Assistant with tool calling.
 
 ---
 
+##  Bonus Tasks Completed
+
+- **B1 · Harden the Backend**:
+  - `Idempotency-Key` header support on `POST /leads` (safe retries replaying the original 201 response).
+  - Mutex concurrency lock ensuring race-condition safety for simultaneous requests.
+  - Status workflow (`SUBMITTED` $\rightarrow$ `UNDER_REVIEW` $\rightarrow$ `APPROVED` / `REJECTED`) with audit log timestamps and notes.
+- **B2 · Smarter Agent**:
+  - Live tool-execution indicator chips in the chat UI (` Calculating quote...`, ` Fetching schemes...`, ` Submitting application...`).
+  - Interactive 1-click confirmation card inside chat before submission.
+  - Additional backend tool: `check_existing_application(mobileNumber)`.
+- **B4 · Production Quality**:
+  - Masked mobile numbers across all logs and API responses (`9876XXXX10`).
+  - Full mobile responsiveness at 375px viewport with native keypad types (`inputMode="decimal"` and `inputMode="numeric"`).
+
+---
+
+##  What I Would Do With More Time
+
+1. **OCR Appraisal Slip Extraction**: Add computer vision slip parsing (via Gemini Vision) allowing field agents to photograph jewellery testing cards and auto-fill weight and purity.
+2. **SMS & WhatsApp OTP Verification**: Integrate SMS verification (Twilio / Gupshup) for borrower mobile verification before final submission.
+3. **Multi-Branch Geo-routing**: Route leads to the nearest partner branch based on customer PIN code or GPS coordinates.
+4. **Streaming SSE for AI Chat**: Stream LLM responses word-by-word via Server-Sent Events (SSE) for lower perceived latency.
+
