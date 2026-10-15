@@ -1,9 +1,5 @@
 # SwarnaLoan: Gold Loan Portal with an AI Agent
 
-[![Node.js Version](https://img.shields.io/badge/Node.js-v22.14-green.svg)](https://nodejs.org/)
-[![React Version](https://img.shields.io/badge/React-v18-blue.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-18%20Passed%20(100%25)-brightgreen.svg)](https://vitest.dev/)
-[![Agent Eval](https://img.shields.io/badge/Agent%20Eval-5%2F5%20Passed-success.svg)](#ai-loan-assist-agent-evaluation)
 
 A production-minded, full-stack gold loan intake web portal built for **T Global's Full Stack Developer Intern Technical Assignment**.
 
@@ -11,7 +7,7 @@ The system enables borrowers and field agents to get instant, regulation-complia
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -46,7 +42,7 @@ The system enables borrowers and field agents to get instant, regulation-complia
 
 ---
 
-## 🚀 Quick Start & Installation
+##  Quick Start & Installation
 
 ### 1. Prerequisites
 - **Node.js**: v18+ (tested on Node v22.14.0)
@@ -90,7 +86,9 @@ npm run dev
 
 ---
 
-## 🧪 Testing & Automated Evaluation
+<img width="1144" height="834" alt="Gold Loan Portal Screenshot" src="https://github.com/user-attachments/assets/dc952c50-de3b-45b9-a171-44fad33cc633" />
+
+##  Testing & Automated Evaluation
 
 The test suite thoroughly covers all requirements, financial edge cases, and conversational evals.
 
@@ -126,7 +124,7 @@ Evaluates all **5 core conversations** specified in the brief:
 
 ---
 
-## 💰 Business Rules & Financial Math
+##  Business Rules & Financial Math
 
 | Parameter | Formula / Rule | Example ($45\text{g}, 22\text{K}$) |
 | :--- | :--- | :--- |
@@ -148,7 +146,7 @@ Evaluates all **5 core conversations** specified in the brief:
 
 ---
 
-## 📡 REST API Specification
+## REST API Specification
 
 ### 1. `GET /api/v1/loan-schemes`
 Returns active gold loan schemes seeded from database. Max LTV is strictly capped at 75%.
@@ -218,7 +216,7 @@ Conversational endpoint for the AI Loan Assistant with tool calling.
 
 ---
 
-## 🎁 Bonus Tasks Completed
+##  Bonus Tasks Completed
 
 - **B1 · Harden the Backend**:
   - `Idempotency-Key` header support on `POST /leads` (safe retries replaying the original 201 response).
@@ -234,7 +232,7 @@ Conversational endpoint for the AI Loan Assistant with tool calling.
 
 ---
 
-## 🔮 What I Would Do With More Time
+## What I Would Do With More Time
 
 1. **OCR Appraisal Slip Extraction**: Add computer vision slip parsing (via Gemini Vision) allowing field agents to photograph jewellery testing cards and auto-fill weight and purity.
 2. **SMS & WhatsApp OTP Verification**: Integrate SMS verification (Twilio / Gupshup) for borrower mobile verification before final submission.
