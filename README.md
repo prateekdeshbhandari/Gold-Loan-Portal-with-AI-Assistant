@@ -1,11 +1,6 @@
-# SwarnaLoan: Gold Loan Portal with an AI Agent
+#  Gold Loan Portal with an AI Agent
 
 
-A production-minded, full-stack gold loan intake web portal built for **T Global's Full Stack Developer Intern Technical Assignment**.
-
-The system enables borrowers and field agents to get instant, regulation-compliant gold loan quotes, apply via a **3-step guided intake form** or a conversational **AI Loan Assistant**, and manage applications through an **Admin Field Agent Dashboard**.
-
----
 
 ##  System Architecture
 
